@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <title>Finance-app</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Finance-app</h1>
+      <div class="dashboard">
+        <h4 id="total-income">Total Income: $0</h4>
+        <h4 id="total-expense">Total Expenses: $0</h4>
+        <h4 id="total-outcome">Total Outcome: $0</h4>
+      </div>
+      <div class="application">
+        <input type="text" placeholder="Description" id="Description" required />
+        <input type="number" placeholder="Amount" id="Amount" required />
+        <select id="type">
+          <option value="Income">Income</option>
+          <option value="Expense">Expense</option>
+        </select>
+        <button id="submit" type="button">Submit</button>
+        <ul id="finance-list"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

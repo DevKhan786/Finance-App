@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 50px;
+}
+
+.container{
+  padding: 50px;
+  background: white;
+  border-radius: 30px;  
+  max-width: 500px;
+}
+
+.dashboard{
+  font-style: italic;
+  padding: 20px 0;
+}
+
+.application{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+select {
+  border-radius: 30px;
+  padding: 0.625rem;
+  border: 1px solid black;
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus,
+select:focus { 
+  border: 1px transparent white;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+button{
+  border-radius: 30px;
+  padding: 10px 0;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  transition-duration: 300ms;
+}
+
+button:hover{
+  transform: scale(1.05);
+}
+
+.Income{
+  color: green;
+}
+
+.Expense{
+  color: red;
+}
+
+#finance-list {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+#finance-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 0.8rem;
+}
+
+#finance-list button {
+  background-color: #f44336;
+  color: white;
+  padding: 3px 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 300ms;
+  font-size: 0.8rem;
+}
+
+#finance-list li .buttons {
+  display: flex;
+  gap: 5px;
+}
+
+#finance-list button:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+
+
