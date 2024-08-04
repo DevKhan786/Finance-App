@@ -16,7 +16,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: white;
   padding: 50px;
 }
 
@@ -25,6 +25,7 @@ body{
   background: white;
   border-radius: 30px;  
   max-width: 500px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 1);
 }
 
 .dashboard{
